@@ -14,4 +14,4 @@ app.get("/teste", async (req:Request, res:Response): Promise <void> => {
 
 app.get("/character", getAllCharacters);
 app.put("/character", createCharacter);
-app.delete("/character/:id", deleteCharacter)
+app.delete("/character/:id", deleteCharacter);
