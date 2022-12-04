@@ -6,14 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "ts-node-dev ./src/index.ts",
-    "start": "tsc && node ./build/index.js"
+    "start": "tsc && node ./build/index.js",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/future4code/Barros-labEcommerce-backend9.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Diego Rios Santos",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/future4code/Barros-labEcommerce-backend9/issues"
